@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>7670851512-ucu7q0og9j1tgi4nd599jv08oh1volcu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.7670851512-ucu7q0og9j1tgi4nd599jv08oh1volcu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAaP5RdD5v2TFNJ8MAN8M-l7n14sO38OYg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>7670851512</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.ibadclient</string>
+	<key>PROJECT_ID</key>
+	<string>fir-sms-96e0e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-sms-96e0e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:7670851512:ios:f01e18680b6b4c98d1d14d</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-sms-96e0e.firebaseio.com</string>
+</dict>
+</plist>
