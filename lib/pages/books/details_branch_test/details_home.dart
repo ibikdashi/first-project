@@ -17,6 +17,9 @@ class _DetailsScreenState extends State<DetailsScreen> {
     //var controller = IndexedScrollController();
     return SafeArea(
         child: Scaffold(
+          appBar:  AppBar(backgroundColor:Colors.teal,title: Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [Text(widget.book,style:TextStyle(color: Colors.yellowAccent),)],),),
           body:Container(
             //color: Colors.black54,
             color: Colors.teal,

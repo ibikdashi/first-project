@@ -37,6 +37,11 @@ dependencies:
   social_embed_webview:
   another_flushbar: ^1.10.17
   animated_text_kit: ^4.2.1
+  circle_wheel_scroll:
+  scrollable_positioned_list:
+  intl:
+  jiffy:
+  just_audio:
 
 
 dev_dependencies:
@@ -47,7 +52,11 @@ flutter:
   uses-material-design: true
   assets:
     - images/
-
+    - assets/sounds/
+  fonts:
+    - family: kufi
+      fonts:
+          - asset: assets/fonts/alpha kufi regular.ttf
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

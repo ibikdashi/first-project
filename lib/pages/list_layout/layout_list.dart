@@ -1,5 +1,6 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+import 'package:ibad_client/pages/Services/webpage.dart';
 import 'layout_card.dart';
 
 
@@ -44,9 +45,10 @@ class _LayoutListState extends State<LayoutList> {
                 ),
                  );
               }else return Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Center(child: CircularProgressIndicator()),
-                  Center(child: Text("Loading")),
+                  Center(child: Text("انتظر من فضلك")),
                 ],
               );
                 })
@@ -58,10 +60,10 @@ class _LayoutListState extends State<LayoutList> {
     return SectionCard(
       mTitle: lists[index]["title"],imageUrl:lists[index]["image"],descript:lists[index]["description"] ,
         onPress: () {
-      // Navigator.push(
-      //   context,
-      //   MaterialPageRoute(builder: (context) =>PdfViewer_Screen(lists[index]["pdf"])),
-      //);
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) =>MyWebView(selectedUrl:lists[index]["url"] ))
+      );
     });
   }
 }

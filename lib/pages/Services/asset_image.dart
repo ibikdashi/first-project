@@ -31,7 +31,7 @@ class _SwapImageState extends State<SwapImage> {
           }else return Column(
             children: [
               Center(child: CircularProgressIndicator()),
-              Center(child: Text("Loading")),
+              Center(child: Text("الرجاء الإنتظار")),
             ],
           );
         });

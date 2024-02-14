@@ -1,8 +1,8 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ibad_client/pages/calendar/calendar_home.dart';
 import 'package:ibad_client/pages/ibad_news.dart';
+import 'calendarnew/newcalendar_home.dart';
 
 class SecondScreen extends StatefulWidget {
   @override
@@ -27,14 +27,10 @@ class _SecondScreenState extends State<SecondScreen> {
               Divider(),
               Column(children: [
                 TAnimation("رزنامة العباد"),
-                // Text(
-                //   "رزنامة العباد",
-                //   style: TextStyle(fontSize: 20.0, color: Colors.white,fontWeight: FontWeight.bold),
-                // ),
                 SizedBox(
                   height: 10,
                 ),
-                Container(color: c,child: CalendarScreen(c: c,),)
+                Container(color: c,child: AWSCalendarScreen(c: c,),)
               ])
             ]),
       ),
@@ -48,7 +44,7 @@ class _SecondScreenState extends State<SecondScreen> {
         fontWeight: FontWeight.bold,
       ),
       child: AnimatedTextKit(
-        totalRepeatCount: 2,
+        totalRepeatCount: 4,
         animatedTexts: [
           //WavyAnimatedText(text),
           TyperAnimatedText(text)

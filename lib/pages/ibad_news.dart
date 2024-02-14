@@ -12,19 +12,15 @@ class _NewsScreenState extends State<NewsScreen> {
   @override
   Widget build(BuildContext context) {
     return Column(
-          children: [
-            TAnimation("أنشطة العباد"),
-            //Text("أنشطة العباد",style: TextStyle(fontSize: 20.0,color: Colors.white,fontWeight: FontWeight.bold),),
-            Container(
-                width: double.infinity,
-                height: 200,
-                // decoration: BoxDecoration(
-                //     border: Border.all(color: Colors.blueAccent)
-                // ),
-                child: SwapImage(title: "أنشطة العباد")),
-            //Divider(),
-          ],
-    );
+            children: [
+              TAnimation("أنشطة العباد"),
+              //Text("أنشطة العباد",style: TextStyle(fontSize: 20.0,color: Colors.white,fontWeight: FontWeight.bold),),
+              Container(
+                  width: double.infinity,
+                  height: 200,
+                  child: SwapImage(title: "أنشطة العباد")),
+            ],
+      );
   }
   Widget TAnimation(String text){
     return DefaultTextStyle(

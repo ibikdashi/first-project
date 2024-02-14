@@ -18,7 +18,6 @@ Container boxproduct(String data) {
     ),
   );
 }
-
 const List<String> books2 = [
  'https://firebasestorage.googleapis.com/v0/b/fir-sms-96e0e.appspot.com/o/books%2FDSC_0008.png?alt=media&token=64856265-2852-4659-a867-e8f676b9d780',
   'https://firebasestorage.googleapis.com/v0/b/fir-sms-96e0e.appspot.com/o/books%2FDSC_0559_0.png?alt=media&token=78f35925-f1c8-4f5a-95fb-d31902ca0aeb',
